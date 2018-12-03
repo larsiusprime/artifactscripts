@@ -13,9 +13,11 @@ haxe --run <FileName>.hx
 ```
 
 ## Compile a script:
+
 ```
 haxe -main <ClassName> -cpp bin
 ```
+(requires hxcpp)
 
 How far can you go in Artifact expert gauntlets on skill alone? Let's find out with these monte carlo scripts.
 
