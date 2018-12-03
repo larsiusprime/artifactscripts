@@ -42,4 +42,7 @@ Specifically models draft, takes matchmaking ramp into account
 | 85%              |                   |                   |  %           |
 | 90%              |                   |                   |  %           |
 
-Based on 10,000 iterations each
+Based on 10,000 iterations each with the following parameters:
+- 1000 players in match-making pool
+- Standard deviation of 15 skill points
+- Quadratic algorithm for match resolution (method "1")
