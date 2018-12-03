@@ -28,21 +28,22 @@ Specifically models draft, takes matchmaking ramp into account
 
 | Skill percentile | Average gauntlets | Average packs won | Flat winrate |
 |------------------|-------------------|-------------------|--------------|
-| 25%              | 5                 | 0                 |12%           |
-| 40%              | 5                 | 0                 |33%           |
-| 46%              | 6                 | 0                 |44%           |
-| 50%              | 8                 | 1                 |52%           |
-| 60%              | 22                | 15                |65%           |
-| 62%              | 36                | 37                |70%           |
-| 65%              |                   |                   |  %           |
-| 70%              |                   |                   |  %           |
-| 75%              |                   |                   |  %           |
-| 80%              |                   |                   |  %           |
-| 80.6%            |                   |                   |  %           |
-| 85%              |                   |                   |  %           |
-| 90%              |                   |                   |  %           |
+| 25th             | 5                 | 0                 |12%           |
+| 4th              | 5                 | 0                 |33%           |
+| 46th             | 6                 | 0                 |44%           |
+| 50th             | 8                 | 1                 |52%           |
+| 53rd             | 11                | 2                 |54%           |
+| 55th             | 12                | 4                 |58%           |
+| 57th             | 17                | 7                 |60%           |
+| 60th             | 22                | 15                |65%           |
+| 62nd             | 36                | 37                |70%           |
+| 65th             | 44                | 52                |73%           |
+| 70th*            | 196               | 353               |83%           |
+| 75th*            |                   |                   |  %           |
 
 Based on 10,000 iterations each with the following parameters:
 - 1000 players in match-making pool
 - Standard deviation of 15 skill points
 - Quadratic algorithm for match resolution (method "1")
+
+\*Based on 1,000 iterations because the script was taking super long at this high a skill percentile.
