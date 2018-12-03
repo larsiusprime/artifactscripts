@@ -1,4 +1,5 @@
-Flat win rate (GauntletWinRate.hx)
+# Flat win rate 
+Source: GauntletWinRate.hx
 Can be considered either constructed or draft
 
 | Win rate | Average gauntlets | Average packs won |Infinite rate|
@@ -21,7 +22,8 @@ Based on 100,000 iterations each
 
 *Script triggered an infinite loop failsafe cutoff at least once, supressing the eventual value this could have been
 
-Skill percentile (GauntletMMR.hx)
+# Skill percentile
+Source: GauntletMMR.hx
 Specifically models draft, takes matchmaking ramp into account
 
 | Skill percentile | Average gauntlets | Average packs won | Flat winrate |
@@ -41,4 +43,3 @@ Specifically models draft, takes matchmaking ramp into account
 | 90%              |                   |                   |  %           |
 
 Based on 10,000 iterations
-Based on  1,000 iterations (script gets significantly slower as skill increases)
