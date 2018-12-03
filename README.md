@@ -1,6 +1,10 @@
 # artifactscripts
 Various scripts related to Valve's game Artifact
 
+How far can you go in Artifact expert gauntlets on skill alone? Let's find out with these monte carlo scripts.
+
+(WIP, kinda trashy)
+
 # Basics
 
 ## Setup:
@@ -18,10 +22,6 @@ haxe --run <FileName>.hx
 haxe -main <ClassName> -cpp bin
 ```
 (requires hxcpp)
-
-How far can you go in Artifact expert gauntlets on skill alone? Let's find out with these monte carlo scripts.
-
-(WIP, kinda trashy)
 
 # Script usage
 
