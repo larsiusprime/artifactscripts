@@ -39,11 +39,16 @@ Specifically models draft, takes matchmaking ramp into account
 | 62nd             | 36                | 37                |70%           |
 | 65th             | 44                | 52                |73%           |
 | 70th*            | 196               | 353               |83%           |
-| 75th*            |                   |                   |  %           |
+| 75th*            | 447               | 804               |84%           |
+| 80th*            | 711               | 1393              |92%           |
+| 85th***          | 2319              | 4628              |94%           |
 
 Based on 10,000 iterations each with the following parameters:
 - 1000 players in match-making pool
 - Standard deviation of 15 skill points
 - Quadratic algorithm for match resolution (method "1")
 
+This script doesn't have an infinite loop failsafe cutoff because I wanted to see how high the eventual values could get.
+
 \*Based on 1,000 iterations because the script was taking super long at this high a skill percentile.
+\*Based on 100 iterations because wow.
