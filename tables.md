@@ -42,4 +42,4 @@ Specifically models draft, takes matchmaking ramp into account
 | 85%              |                   |                   |  %           |
 | 90%              |                   |                   |  %           |
 
-Based on 10,000 iterations
+Based on 10,000 iterations each
